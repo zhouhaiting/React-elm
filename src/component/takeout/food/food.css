@@ -1,0 +1,32 @@
+/*最外边的div*/
+.slide-list{
+    width: 100%;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+/*list下边的section设置弹性盒布局，两端对齐*/
+.list{
+    display: flex;
+    /*flex-wrap:wrap ;*/
+    justify-content: space-between;
+}
+
+.list section p{
+    text-align: center;
+    color: #666;
+    font-size: 0.2rem;
+}
+.list section img{
+    max-width: 100%;
+    height: auto;
+}
+/*最高立减图片*/
+.discounts{
+    width: 100%;
+    height:auto;
+    margin: 0.1rem 0;
+}
+.discounts img{
+    max-width: 100vw;
+    height: auto;
+}

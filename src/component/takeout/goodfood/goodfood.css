@@ -1,0 +1,84 @@
+/*最外边大的div,弹性盒布局，方向：竖*/
+.tab-food{
+    display: flex;
+    flex-direction: column;
+}
+/*上边蓝色的li*/
+.li-list{
+    width: 100%;
+    height: 1.8rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background-color: #00a6fe;
+}
+/*回退按钮向下距离*/
+.title4{
+  margin-bottom: 0.5rem;
+}
+.title4 i{
+    display: inline-block;
+    margin-right: 0.66rem;
+    font-size: 0.4rem;
+    color: #fff;
+    cursor: pointer;
+}
+.title4 span{
+    font-size: 0.34rem;
+    color: #fff;
+}
+/*ul列表 ,弹性盒布局，方向：横*/
+.title-ul{
+    display: flex;
+    flex-direction: row;
+}
+/*设置每个li的样式，可放大，缩小，自动分配剩余空间*/
+.title-ul li {
+    flex: 1;
+    margin-right: 0.05rem;
+    text-align: center;
+}
+.title-ul li a{
+    font-size: 0.3rem;
+    color: rgba(223, 221, 214, 0.8);
+    padding-bottom: 0.1rem;
+    cursor: pointer;
+}
+/*选中状态下的字体设置*/
+.title-ul li.active a{
+     color: #fff;
+    border-bottom: 3px solid #fff;
+}
+/*全部隐藏掉*/
+.content-item{
+    display: none;
+}
+/*第一个显示*/
+.current{
+    display: block;
+}
+/*热卖套餐*/
+.set-mail{
+    padding: 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.2rem;
+}
+.set-mail h2{
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #444444;
+}
+/*父级设置弹性盒，底下的li分散两端对齐*/
+.set-mail ul{
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+}
+.set-mail ul li img{
+    width: 2rem;
+    height: 2rem;
+}
+.set-mail ul li p{
+    font-size: 0.26rem;
+    margin-bottom: 0.1rem;
+}

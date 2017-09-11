@@ -1,0 +1,231 @@
+body{
+    background-color: #fff;
+}
+/*设置店铺头部，rgba颜色*/
+.shop-header{
+    width: 100%;
+    height: 2.3rem;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    background:rgba(168,96,96,0.3);
+}
+/*可点击的返回按钮*/
+.shop-header i{
+    display: inline-block;
+    font-size: 0.4rem;
+    color: #fff;
+}
+/*金百万的logo,如果外面没有div包裹的话，给出宽高，屏幕自适应*/
+.jinbaiwan img{
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.jinbaiwan h2{
+    font-size: 0.4rem;
+    color: #fff;
+    font-weight: 700;
+}
+.jinbaiwan p{
+    color: #fff;
+    font-size: 0.22rem;
+    margin-bottom: 0.15rem;
+}
+/*两个span颜色小方框*/
+.jinbaiwan p .yel{
+    display: inline-block;
+    margin-right: 0.1rem;
+    padding: 0.05rem 0.05rem;
+    background-color: #ffef1d;
+
+}
+.jinbaiwan p .min{
+    display: inline-block;
+    padding: 0.05rem 0.05rem;
+    background-color: #1088f6;
+}
+.foodmsg .new{
+    font-size: 0.2rem;
+}
+.foodmsg .shou{
+    padding: 0.04rem 0.04rem;
+    background-color: #7eb04f;
+    color: #fff;
+}
+.tab{
+    padding: 0.2rem 0.2rem;
+    /*border-bottom: 0.01rem solid #ccc;*/
+}
+.tab .li{
+    border-bottom: 0.01rem solid #ccc;
+}
+.tab .li li{
+    float: left;
+    margin-right: 1rem;
+    font-size: 0.3rem;
+}
+.tab .on4{
+    color: #0086b3;
+    border-bottom: 0.03rem solid #0086b3;
+}
+/*=========左边的列表=========*/
+.left-list ul li{
+    float: none;
+    font-size: 0.22rem;
+    padding: 0.2rem 0;
+    border-bottom: 0.01rem solid #ccc;
+}
+.left-list{
+    width: 1.3rem;
+    height: 7rem;
+    /*height: 100%;*/
+    overflow-y: auto;
+    background-color: rgba(195, 194, 221, 0.47);
+}
+.left-list .on6{
+    background-color: #fff;
+}
+/*=========右边的食物列表=========*/
+.right-list{
+    height: 7rem;
+    overflow-y: auto;
+}
+.right-list h2{
+    color: #666666;
+    font-size: 0.2rem;
+    padding: 0.1rem 0.1rem;
+}
+.pic-list img{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    margin: 0 0.2rem;
+}
+.right-list .pic-list{
+    padding: 0.1rem 0.1rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+/*食品详情，flex布局，交叉轴左对齐，放大，缩小，空间自动*/
+.name{
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.name p{
+   flex: 1 1 auto;
+}
+/*font-weight加粗后面的值是百位，不能是7*/
+.name .name1{
+    font-size: 0.24rem;
+    /*font-weight: bold;*/
+    font-weight: 700;
+}
+.name .food-price{
+    font-size: 0.25rem;
+    color: #ff5261;
+}
+/*添加购物车小图标*/
+.name i{
+    display: inline-block;
+    align-self: flex-end;
+    font-size: 0.46rem;
+    color: #1198ff;
+}
+/*==========底部添加购物车===========*/
+.trolley{
+    width: 100%;
+    height: 1rem;
+    background: rgba(64,68,71,0.7);
+    position: relative;
+    z-index:99;
+}
+.trolley .add{
+    display: inline-block;
+    width: 1.13rem;
+    height: 1.13rem;
+    /*padding: 0.2rem 0.2rem;*/
+    border-radius: 50%;
+    background: #666;
+    position: absolute;
+    left: 10%;
+    top: -40%;
+}
+/*购物车图标*/
+.trolley i{
+    font-size: 0.7rem;
+    color: #fff;
+    line-height: 1.12rem;
+    margin-left: 0.2rem;
+}
+.trolley .pay{
+    display: inline-block;
+    width: 1.8rem;
+    height: 1rem;
+    background-color: #444444;
+    color: #fff;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1rem;
+}
+/*购物车清单*/
+.detailed-list{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 1.2rem;
+    cursor: pointer;
+    font-size: 0.22rem;
+
+}
+/*设置选的商品列表样式*/
+.detailed-list ul li{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    border-bottom: 0.01rem solid #ccc;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+/*设置菜品名称的字体*/
+.detailed-list ul li span{
+    font-size: 0.24rem;
+    margin-right: 0.2rem;
+}
+.detailed-list li .btnn span{
+     line-height:0.5rem;
+}
+.detailed-list .btnn span i{
+    font-size: 0.4rem;
+    color: #0086b3;
+}
+.detailed-list li .btnn img{
+    width: 0.4rem;
+    height: 0.3rem;
+    display: inline-block;
+}
+.detailed-list .subtract{
+    width: 100%;
+    height: auto;
+    background-color: #f8ff77;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.detailed-list .gray{
+    width: 100%;
+    padding:0.1rem 0.2rem;
+    box-sizing: border-box;
+    background-color: #666666;
+    color: #fff;
+    font-size: 0.24rem;
+}
+.detailed-list .more{
+    text-align: center;
+    width: 100%;
+    background-color: #ccc;
+}

@@ -1,0 +1,40 @@
+/*猜你喜欢最外div*/
+.your-like{
+    margin-bottom: 1.8rem;
+}
+.your-like h3{
+    font-size: 0.3rem;
+    padding: 0.3rem 0.3rem;
+    box-sizing: border-box;
+}
+/*喜欢的食物列表*/
+.like-list{
+    padding:0 0.2rem;
+    box-sizing: border-box;
+}
+/*2个section分为一行，宽度100%*/
+.like-list .row{
+    width: 100%;
+}
+/*2个店铺为一行，下边的section弹性盒布局，自动分配空间*/
+.row{
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 1rem;
+}
+/*下边的每个喜欢店铺*/
+.like-list section{
+    display: inline-block;
+    height: 1.5rem;
+    float: left;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+/*图片设置宽高*/
+.row section img{
+    width: 2.9rem;
+    height: 2.1rem;
+}
+.row section p{
+    font-size: 0.23rem;
+}

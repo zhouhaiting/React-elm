@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,
+  user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/iconfont/iconfont.css">
+  <title>饿了吗</title>
+  <script>
+      (function (doc, win) {
+          let docEl = doc.documentElement,
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+              recalc = function () {
+                  let clientWidth = docEl.clientWidth;
+                  if (!clientWidth) return;
+                  if(clientWidth>=640){
+                      docEl.style.fontSize = '100px';
+                  }else{
+                      docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                  }
+              };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+      })(document, window);
+  </script>
+</head>
+<body>
+<noscript>
+  You need to enable JavaScript to run this app.
+</noscript>
+<div id="root"></div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+/*推荐商家最外边大的div*/
+.merchant{
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+.merchant h3{
+    padding-left: 0.2rem;
+    color: #9d9d9d;
+    margin: 0.1rem 0;
+}
+/*下边的每个商家列表，下边框*/
+.shop-list{
+    border-bottom: 0.01rem solid #cccccc;
+    padding: 0 0.2rem;
+}
+
+.shop-list img{
+    width:1.2rem;
+    height:1.2rem;
+    padding-right: 0.2rem;
+}
+.shop-list h4{
+    font-size: 0.3rem;
+    color: #333;
+    font-weight: 7;
+}
+.shop-list h4 span{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.3rem;
+    background-color: yellow;
+    color: brown;
+    margin-right: 0.1rem;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.shop-list h4 section{
+    display: inline-block;
+    width: 0.3rem;
+    height:0.3rem;
+    border: 0.01rem solid #9d9d9d;
+    color: #cccccc;
+    font-style: normal;
+    font-size: 0.2rem;
+}
+.shop-list h5{
+    color: #444;
+}
+/*蜂鸟专送，准时达*/
+.shop-list h5 .white{
+    padding: 0 0.1rem;
+    height:0.3rem;
+    line-height: 0.3rem;
+    border: 0.01rem solid #9d9d9d;
+}
+.shop-list h5 .blue{
+    padding: 0 0.1rem;
+    height:0.3rem;
+    line-height: 0.3rem;
+    background-color: #007aff;
+    color: white;
+    border: 0.01rem solid #9d9d9d;
+}
+.shop-list .sell{
+    margin: 0.2rem 0;
+}
+.money{
+    margin:0.2rem 1.4rem;
+}
+.money p{
+    color: #444444;
+    margin-bottom: 0.2rem;
+}
+/*设置最后2行p标签下的首和减，不同颜色方框*/
+.money p span{
+    display: inline-block;
+    margin-right: 0.1rem;
+    width: 0.3rem;
+    height:0.3rem;
+    background-color:rgb(240, 115, 115);
+    color: #fff;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+.money p .gre{
+    display: inline-block;
+    margin-right: 0.1rem;
+    width: 0.3rem;
+    height:0.3rem;
+    background-color:  rgb(112, 188, 70);
+    color: #fff;
+    line-height: 0.3rem;
+    text-align: center;
+}

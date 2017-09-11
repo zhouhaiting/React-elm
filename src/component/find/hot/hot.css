@@ -1,0 +1,39 @@
+/*美食热推div样式*/
+.hotfood{
+    margin-bottom: 0.7rem;
+}
+/*h3标题样式*/
+.hotfood h3{
+    text-align: center;
+    font-size: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+/*iconfont小图标样式*/
+.hotfood h3 i{
+    font-size: 0.3rem;
+    color: red;
+}
+/*标题左右的横线，用span表示，行内块，宽高，背景颜色*/
+.hotfood h3 span{
+    display: inline-block;
+    width: 1rem;
+    height: 0.04rem;
+    background-color: #333;
+    margin-bottom: 0.05rem;
+}
+/*p标签样式*/
+.hotfood p{
+    text-align: center;
+    font-size: 0.2rem;
+}
+/*美食图片列表，用背景图片代替了*/
+.hot-list{
+    padding: 0.2rem 0.18rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.hot-list img{
+    width: 1.9rem;
+    height: 2.1rem;
+}

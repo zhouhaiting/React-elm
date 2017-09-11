@@ -1,0 +1,35 @@
+/*设置底部的样式,固定定位在底部*/
+footer{
+    width:100%;
+    height:0.7rem;
+    background-color: #ccc;
+    border-top: 0.01rem solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+/*给里边的盒子设置上下左右的margin，弹性盒布局：直接父元素只对子元素有影响*/
+.footer-nav{
+    height: 0.7rem;
+    margin: 0 0.76rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*文字的设置，微软雅黑*/
+footer .button{
+    font-size: 0.25rem;
+    text-align: center;
+    font-family: "Microsoft Yahei";
+    color: #333;
+}
+/*引用iconfont小图标，设置字体大小fontsize，颜色color*/
+.footer-nav .button i{
+    display: block;
+    font-size: 0.3rem;
+}
+/*当前选中的添加蓝色*/
+.footer-nav .show{
+    color: #007aff;
+}

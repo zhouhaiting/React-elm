@@ -1,0 +1,25 @@
+/*附近买过div*/
+.buy{
+    margin: 0.1rem 0;
+    padding: 0.42rem 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #ccc;
+    height: 4rem;
+}
+.buyed{
+    padding: 0.2rem 0;
+}
+/*附件买过，附近收藏选项卡*/
+.buyed li{
+    float: left;
+    margin-right: 0.5rem;
+}
+.buyed li a{
+    font-size: 0.3rem;
+    color: #444444;
+    font-weight: 500;
+}
+/*默认选中的li*/
+.buyed .on{
+    border-bottom: 0.03rem solid #0086b3;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: #f3f3f3;
+}
+/*第一行蓝色的title，订单，早餐*/
+.title{
+    width:100%;
+    background-color: #007aff;
+    padding: 0.33rem;
+    box-sizing: border-box;
+}
+/*订单和早餐*/
+.title span{
+    display: inline-block;
+    font-size: 0.3rem;
+    color: #fff;
+}
+/*存放我的订单数据div*/
+.my {
+    padding: 0.46rem 0.3rem;
+    box-sizing: border-box;
+    height: 3.5rem;
+    border-bottom: 0.01rem solid #ccc;
+    position: relative;
+}
+/*调整字体颜色*/
+.my h3{
+    font-size: 0.3rem;
+    font-weight: 700;
+}
+.my span a{
+    font-size: 0.22rem;
+    color: #0086b3;
+}
+.my p{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 50%;
+    font-size: 0.23rem;
+    color: #444;
+}

@@ -1,0 +1,109 @@
+body{
+    background-color: #fff;
+}
+/*==========标题===============*/
+.login-page h1{
+    text-align: center;
+    font-size: 0.5rem;
+    color: #0086b3;
+}
+.login-page h1 i{
+    font-size: 0.5rem;
+    margin-right: 0.1rem;
+}
+.login-page .title2{
+    text-align: center;
+    font-size: 0.3rem;
+    color: #0086b3;
+}
+/*==========输入框部分==========*/
+.login-method{
+    margin-top: 0.5rem;
+}
+/*包裹ul li的div*/
+.title3 {
+    width: 4rem;
+    height: 0.23rem;
+    margin: 0 auto;
+}
+.login-ul li{
+    float: left;
+}
+/*短信登录，密码登录*/
+.login-ul li a{
+    /*margin-right: 1rem;*/
+    font-size: 0.3rem;
+    padding: 0.1rem 0.2rem;
+}
+/*输入手机号登录部分*/
+.input{
+    width: 4rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+.input p{
+    text-align: center;
+    width: 4rem;
+}
+/*设置input的样式*/
+.input input{
+    width: 4rem;
+    height: 0.48rem;
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    border: 1px solid #666666;
+    outline: none;
+    padding-left: 0.1rem;
+    font-size: 0.18rem;
+}
+.input .p3{
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+}
+.input .telephone{
+    position: relative;
+}
+/*获取验证码的设置*/
+#verify{
+    width: 1.3rem;
+    height: 0.4rem;
+    background-color: #ccc;
+    font-size: 0.20rem;
+    /*outline: none;*/
+    border: 0.01rem solid #ccc;
+    position: absolute;
+    top: 10%;
+    right: 0.1rem;
+    cursor: pointer;
+}
+
+/*登录按钮的样式*/
+.input button{
+    width: 4rem;
+    height: 0.48rem;
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    border: 1px solid  #4cd964;
+    outline: none;
+    background-color: #4cd964;;
+    font-size: 0.18rem;
+    color: #fff;
+}
+/*选中状态下的字体颜色，下划线设置*/
+.login-ul li.on5 a{
+    color: #0086b3;
+    border-bottom: 2px solid #0086b3;
+}
+/*全部隐藏掉*/
+.input{
+    display: none;
+}
+/*第一个显示*/
+.cur{
+    display: block;
+}
+/*备案信息*/
+.beian{
+    margin-top: 0.5rem;
+   text-align: center;
+}

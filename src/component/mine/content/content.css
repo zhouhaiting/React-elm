@@ -1,0 +1,34 @@
+/*最外边的div*/
+.box{
+    margin-bottom: 3rem;
+}
+/*两段colom，白色背景*/
+.colom{
+    margin-top: 0.2rem;
+    background-color: #fff;
+}
+/*每一行是个a标签，转化成块。上下边框，上下左右的padding*/
+.colom a{
+    display: block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd ;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+}
+/*靠左边的小图标，给个右边距*/
+.colom a .icon{
+    font-size: 0.4rem;
+    color: #0086b3;
+    padding-right: 0.2rem;
+}
+.colom a p{
+    display: inline-block;
+    font-size: 0.4rem;
+    font-weight: 500;
+}
+/*右箭头,在手机端不能使用margin调距离，使用了绝对定位*/
+.colom a p .right{
+    position: absolute;
+    right: 0.1rem;
+    color:#666666 ;
+}
